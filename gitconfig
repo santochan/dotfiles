@@ -1,29 +1,4 @@
 [color]
-	branch = auto
-	diff = auto
+	ui = true
 	status = auto
-[color "branch"]
-	current = yellow reverse
-	local = yellow
-	remote = green
-[color "diff"]
-	meta = yellow bold
-	frag = magenta bold
-	old = red bold
-	new = green bold
-[color "status"]
-	added = yellow
-	changed = green
-	untracked = cyan
-[core]
-	quotepath = false
-	excludesfile = /Users/fredwu/.gitignore_global
-[mergetool]
-	keepBackup = true
-[heroku]
-	account = personal
-[user]
-	name = Fred Wu
-	email = ifredwu@gmail.com
-[push]
-	default = simple
+	branch = auto

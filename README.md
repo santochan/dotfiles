@@ -1,6 +1,6 @@
-# Fred Wu's Dot Files
+# Santo Chan's Dot Files
 
-![](screenshot.png)
+## These are based on [Fred Wu's Dot Files](https://github.com/fredwu/dotfiles).
 
 ## Prerequisites
 
