@@ -1,6 +1,7 @@
 HISTFILE=~/.zsh_history
 HISTSIZE=1000000
 SAVEHIST=HISTSIZE
+setopt INC_APPEND_HISTORY
 
 export EDITOR=vim
 export BUNDLER_EDITOR=subl
@@ -10,5 +11,6 @@ export PATH="$HOME/Projects/julia:$ANDROID_HOME/tools:$ANDROID_HOME/platform-too
 export NODE_PATH=/usr/local/lib/node_modules
 
 export RUBY_GC_MALLOC_LIMIT=90000000
-/*export RUBY_FREE_MIN=200000*/
 export JRUBY_OPTS=-J-Xmx2048m
+
+export GREP_COLOR='3;33'
