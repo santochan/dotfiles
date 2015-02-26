@@ -48,6 +48,7 @@ zstyle ':prezto:load' pmodule \
 # zstyle ':prezto:module:editor' key-bindings 'vi'
 
 # Auto convert .... to ../..
+#
 zstyle ':prezto:module:editor' dot-expansion 'yes'
 
 #
@@ -153,5 +154,4 @@ zstyle ':prezto:module:terminal:tab-title' format '%s'
 # zstyle ':prezto:module:tmux:auto-start' remote 'yes'
 #
 
-# chruby
 zstyle ':prezto:module:ruby:chruby' auto-switch 'yes'
