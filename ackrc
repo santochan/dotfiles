@@ -1,6 +1,8 @@
 --type-add=ruby=.haml,.slim,.rake,.rsel,Gemfile,.jst,.coffee
+--type-add=erb=.erb
 --ignore-dir=log
 --ignore-dir=tmp
+--ignore-dir=node_modules
 --ignore-dir=public/assets
 --ignore-dir=.sass-cache
 

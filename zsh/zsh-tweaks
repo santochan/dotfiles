@@ -4,4 +4,3 @@ zstyle :completion::complete:git-checkout:argument-rest:headrefs command "git fo
 
 
 h() { if [ -z "$*" ]; then history 1; else history 1 | egrep "$@"; fi; }
-

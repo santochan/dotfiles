@@ -17,3 +17,4 @@ function chruby_prompt_info() {
 }
 
 source /usr/local/opt/chruby/share/chruby/chruby.sh
+source /usr/local/opt/chruby/share/chruby/auto.sh
